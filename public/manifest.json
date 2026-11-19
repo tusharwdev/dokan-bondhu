@@ -1,0 +1,19 @@
+{
+  "name": "দোকানবন্ধু - ডিজিটাল ক্যাশমেমো ও বাকি খাতা",
+  "short_name": "দোকানবন্ধু POS",
+  "description": "দোকানদারদের জন্য ডিজিটাল ক্যাশমেমো, বাকি-বকেয়া হিসাব, স্টক ও লাভ-ক্ষতি ম্যানেজমেন্ট মোবাইল অ্যাপ।",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d4a3a",
+  "theme_color": "#0d4a3a",
+  "lang": "bn-BD",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
