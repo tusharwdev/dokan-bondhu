@@ -327,7 +327,7 @@ export default function App() {
           <div className="header-actions">
             <a
               id="btn-download-zip-top"
-              href="/downloads/dokan-bondhu-ready-app.zip"
+              href="./downloads/dokan-bondhu-ready-app.zip"
               download="dokan-bondhu-ready-app.zip"
               className="btn-header"
               style={{ textDecoration: 'none', background: '#fbbf24', color: '#111827', borderColor: '#f59e0b', fontWeight: 800 }}
@@ -869,7 +869,7 @@ export default function App() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 <a
                   id="btn-dl-ready-zip"
-                  href="/downloads/dokan-bondhu-ready-app.zip"
+                  href="./downloads/dokan-bondhu-ready-app.zip"
                   download="dokan-bondhu-ready-app.zip"
                   className="btn btn-primary btn-block"
                   style={{ textDecoration: 'none' }}
@@ -878,7 +878,7 @@ export default function App() {
                 </a>
                 <a
                   id="btn-dl-source-zip"
-                  href="/downloads/dokan-bondhu-full-project.zip"
+                  href="./downloads/dokan-bondhu-full-project.zip"
                   download="dokan-bondhu-full-project.zip"
                   className="btn btn-outline btn-block"
                   style={{ textDecoration: 'none', background: '#ffffff' }}
