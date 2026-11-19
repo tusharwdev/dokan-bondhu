@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dokanbondhu-pos-v2';
+const CACHE_NAME = 'dokanbondhu-pos-v3';
 const ASSETS = ['./', './index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', (event) => {
@@ -20,7 +20,7 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
-  if (url.pathname.endsWith('.zip')) return;
+  if (url.pathname.endsWith('.zip') || url.pathname.endsWith('.apk')) return;
 
   if (event.request.mode === 'navigate') {
     event.respondWith(

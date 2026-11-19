@@ -327,12 +327,12 @@ export default function App() {
           <div className="header-actions">
             <a
               id="btn-download-zip-top"
-              href="./downloads/dokan-bondhu-ready-app.zip"
-              download="dokan-bondhu-ready-app.zip"
+              href="./downloads/dokan-bondhu.apk"
+              download="dokan-bondhu.apk"
               className="btn-header"
               style={{ textDecoration: 'none', background: '#fbbf24', color: '#111827', borderColor: '#f59e0b', fontWeight: 800 }}
             >
-              ⬇️ ডাউনলোড
+              ⬇️ APK ডাউনলোড
             </a>
             <button id="btn-install-top" className="btn-header" onClick={handleInstallApp}>
               📲 ইনস্টল
@@ -864,17 +864,26 @@ export default function App() {
                 <span>📦 অ্যাপ ডাউনলোড সেন্টার (সার্ভার ডাউনলোড লিংক)</span>
               </div>
               <p style={{ fontSize: '0.76rem', color: '#1f2937', marginBottom: '12px' }}>
-                নিচের বাটনে ক্লিক করে সরাসরি আমাদের সার্ভার থেকে সম্পূর্ণ অ্যাপের রেডি বিল্ড অথবা সোর্স কোড ZIP ফাইল আপনার মোবাইল বা কম্পিউটারে ডাউনলোড করে নিন:
+                নিচের বাটনে ক্লিক করে সরাসরি Android APK অ্যাপ অথবা সোর্স কোড ZIP ফাইল আপনার মোবাইল বা কম্পিউটারে ডাউনলোড করে নিন:
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                <a
+                  id="btn-dl-android-apk"
+                  href="./downloads/dokan-bondhu.apk"
+                  download="dokan-bondhu.apk"
+                  className="btn btn-primary btn-block"
+                  style={{ textDecoration: 'none' }}
+                >
+                  🤖 ১. Android APK অ্যাপ ডাউনলোড করুন (dokan-bondhu.apk)
+                </a>
                 <a
                   id="btn-dl-ready-zip"
                   href="./downloads/dokan-bondhu-ready-app.zip"
                   download="dokan-bondhu-ready-app.zip"
-                  className="btn btn-primary btn-block"
-                  style={{ textDecoration: 'none' }}
+                  className="btn btn-outline btn-block"
+                  style={{ textDecoration: 'none', background: '#ffffff' }}
                 >
-                  ⬇️ ১. রেডি মোবাইল অ্যাপ ডাউনলোড করুন (ZIP - 83 KB)
+                  📦 ২. ওয়েব রেডি বিল্ড ডাউনলোড করুন (ZIP - 83 KB)
                 </a>
                 <a
                   id="btn-dl-source-zip"
@@ -883,7 +892,7 @@ export default function App() {
                   className="btn btn-outline btn-block"
                   style={{ textDecoration: 'none', background: '#ffffff' }}
                 >
-                  💻 ২. সম্পূর্ণ সোর্স কোড প্রজেক্ট ডাউনলোড (React + Capacitor ZIP)
+                  💻 ৩. সম্পূর্ণ সোর্স কোড প্রজেক্ট ডাউনলোড (React + Capacitor ZIP)
                 </a>
               </div>
             </div>
